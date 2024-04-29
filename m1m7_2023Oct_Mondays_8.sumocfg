@@ -1,0 +1,19 @@
+<configuration>
+    <input>
+        <net-file value="M1-M7.net.xml"/>
+        <route-files value="flow_monday_8.xml"/>
+     	<additional-files value="input_additional.add.xml"/>
+    </input>
+
+    <fcd-output>
+        <fcd-output value="trajs_flow_monday_8.xml"/>
+        <fcd-output.geo value="true"/>
+    </fcd-output>
+
+    <time>
+        <begin value="0"/>
+        <end value="300"/>
+	<step-length value="0.5"/>
+    </time>
+
+</configuration>

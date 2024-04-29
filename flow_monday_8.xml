@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+-->
+
+
+<routes>
+
+
+<flow id="flow_toBudapest_passenger_petrol" type="petrol_mode" color="500,0,0" begin="0" end= "600" vehsPerHour="730"  from="-7" to="-5#2" departLane="free"  />
+<flow id="flow_toBudapest_trailer_electric" type="electric_mode" color="0,100,200" begin="0" end= "600" vehsPerHour="1"  from="-7" to="-5#2" departLane="free"  />
+
+
+<flow id="flow_fromRamptoBudapest_passenger_petrol" type="petrol_mode" color="500,0,0" begin="0" end= "600" vehsPerHour="58"  from="-11" to="-5#2" departLane="free"  />
+<flow id="flow_fromRamptoBudapest_passenger_electric" type="electric_mode" color="0,100,200" begin="0" end= "600" vehsPerHour="1"  from="-11" to="-5#2" departLane="free"  />
+
+
+<flow id="flow_fromBudapest_passenger_petrol" type="petrol_mode" color="500,0,0" begin="0" end= "600" vehsPerHour="1411"  from="-14" to="-36" departLane="free"  />
+<flow id="flow_fromBudapest_passenger_electric" type="electric_mode" color="0,100,200" begin="0" end= "600" vehsPerHour="1"  from="-14" to="-36" departLane="free"  />
+
+
+</routes>
